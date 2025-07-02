@@ -16,28 +16,28 @@ I'll be learning and implementing each stage week by week. Here's how my tech st
 
 ### ✅ Week 2: CSS
 - Styled the blog with modern, responsive design
-- Used Flexbox and Grid to handle layout
+- Used Flexbox to handle layout
 
 ### ✅ Week 3: JavaScript
 - Added interactive features like form validation and dynamic comment display
-- Practiced DOM manipulation and event handling
+-  event handling
 
-### 🔜 Week 4+: React (In Progress)
+### 🔜 Week 4+: React 
 - Migrating the project to use React components
 - Managing state and props effectively
 
-### 🔜 Week 5+: Next.js and Beyond
+### 🔜 Week 5+: Next.js 
 - Plan to transition to Next.js for routing and performance
 - Learn SSR (Server-Side Rendering) and API integration
 
-## 📅 Weekly Updates
+##  Weekly Updates
 
 I will continue to push updates regularly. Each week, I aim to:
 - Add at least one new concept or feature
 - Refactor previous code for optimization
 - Reflect on what I’ve learned
 
-## 📖 Purpose
+##  Purpose
 
 This project is more than just a technical exercise — it's a **learning log**, a **portfolio piece**, and a **real-world challenge**. By the end of my internship, I hope to:
 - Build a fully functional, modern blog site
