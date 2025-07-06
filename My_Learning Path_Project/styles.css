@@ -17,7 +17,7 @@ body::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: url("Images/blur.png") no-repeat center center / cover;
+  background: url("Images/blure.png") no-repeat center center / cover;
   filter: blur(2px);
   opacity: 0.35;
   z-index: -1;
@@ -375,6 +375,73 @@ body::before {
   text-decoration: underline;
 }
 
+/* Blog Posts Section */
+.blog-posts {
+  margin: 4rem auto;
+  max-width: 1000px;
+  background: rgba(255 255 255 / 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 121, 107, 0.15);
+  backdrop-filter: saturate(180%) blur(10px);
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.post-card {
+  background: #ffffffcc;
+  border-radius: 10px;
+  padding: 1.2rem;
+  box-shadow: 0 4px 8px rgba(0, 121, 107, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 4px solid #00796b;
+  min-height: 120px;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 121, 107, 0.2);
+}
+
+.post-card h3 {
+  color: #004d40;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.post-card p {
+  color: #00695c;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Skeleton Loading State */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+.skeleton-line {
+  height: 1rem;
+  background: #ddd;
+  margin-bottom: 0.8rem;
+  border-radius: 4px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
 /* Responsive Design */
 @media (max-width: 768px) {
   .feature-list,
@@ -401,3 +468,4 @@ body::before {
     height: 120px;
   }
 }
+
