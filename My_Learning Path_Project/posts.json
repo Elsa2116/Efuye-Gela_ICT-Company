@@ -1,0 +1,14 @@
+[
+  {
+    "title": "My First Week at Efuye Gela",
+    "body": "I built my first page using semantic HTML and styled it with Flexbox. I also learned how to write JavaScript functions to make my site interactive."
+  },
+  {
+    "title": "Discovering Git & GitHub",
+    "body": "Using Git helped me track code changes, and GitHub made it easy to collaborate and share progress with my team."
+  },
+  {
+    "title": "Blog Feature with Fetch",
+    "body": "This mini project taught me how to fetch data using the Fetch and display it as styled cards on the page.but not working"
+  }
+]
